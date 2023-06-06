@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+ul{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.navbtn{
+    font-size: 1rem;
+    border: none;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.navgt{
+    font-size: 1rem;
+    background-color: purple;
+    border-radius: 10%;
+    padding: 1em 2em;
+}
+button{
+    all: unset;
+}
+nav a{
+    color: black;
+}
