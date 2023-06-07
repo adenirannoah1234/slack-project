@@ -55,7 +55,7 @@ nav a{
     width: 400px;
 }
 h1{
-    font-size: 5rem;
+    font-size: 4rem;
 }
 .buttontff{
     border: 3px solid purple;
@@ -69,6 +69,7 @@ h1{
     padding: 1.1em 1em;
 }
 .slackone{
+    margin-top: 50px;
     margin-right: 50px ;
     margin-left: 50px;
 }
