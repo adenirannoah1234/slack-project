@@ -34,7 +34,7 @@ a{
 .navgt{
     font-size: 1rem;
     background-color: purple;
-    border-radius: 10%;
+    border-radius: 20%;
     padding: 1em 2em;
 }
 button{
@@ -42,4 +42,42 @@ button{
 }
 nav a{
     color: black;
+}
+.mainbox{
+    background-color: gold;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    height: 550px;
+}
+.images{
+    width: 400px;
+}
+h1{
+    font-size: 5rem;
+}
+.buttontff{
+    border: 3px solid purple;
+    font-size: 1rem;
+    background-color: purple;
+    padding: 1em 1em;
+}
+.buttoncs{
+    border: 1px solid purple;
+    font-size: 1rem;
+    padding: 1.1em 1em;
+}
+.slackone{
+    margin-right: 50px ;
+    margin-left: 50px;
+}
+.slacktwo{
+    margin-right: 50px ;
+    margin-left: 50px;
+
+}
+
+p{
+    font-size: larger;
 }
