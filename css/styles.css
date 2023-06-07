@@ -44,12 +44,12 @@ nav a{
     color: black;
 }
 .mainbox{
-    background-color: gold;
     display: flex;
     justify-content: center;
     justify-content: space-between;
+    padding: 50px;
     align-items: center;
-    height: 550px;
+    
 }
 .images{
     width: 400px;
@@ -68,18 +68,10 @@ h1{
     font-size: 1rem;
     padding: 1.1em 1em;
 }
-.slackone{
-    margin-top: 50px;
-    margin-right: 50px ;
-    margin-left: 50px;
-    margin-bottom: 50px;
-}
-.slacktwo{
-    margin-right: 50px ;
-    margin-left: 50px;
-
-}
 
 p{
     font-size: larger;
+}
+body{
+    background-color: seashell;
 }
