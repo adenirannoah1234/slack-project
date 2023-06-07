@@ -33,8 +33,9 @@ a{
 }
 .navgt{
     font-size: 1rem;
+    color: white;
     background-color: purple;
-    border-radius: 20%;
+    border-radius: 10px;
     padding: 1em 2em;
 }
 button{
