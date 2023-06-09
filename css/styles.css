@@ -143,8 +143,9 @@ ul{
 nav{
     padding: 10px 20px;
 }
-
-
-
-}    
-
+}  
+@media screen and ( max-width: 480px){
+    .buttontff{
+        margin-bottom: 7px;
+    }  
+}
