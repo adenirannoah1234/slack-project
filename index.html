@@ -9,35 +9,45 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+
 </head>
 <body>
     <nav>
         <a class="logo" href="/">
             <img src="images/Slack_icon_2019.svg.png" width="50px"alt="logo">
-            <h2>slack</h2>
+            <h2>Slack</h2>
         </a>
+        <i class="ri-menu-line"></i>
         <ul>
+            <i class="ri-close-circle-line"></i>
             <li> <a href="#"> Why slack?</a></li> 
             <li> <a href="#"> Solutions</a></li>
             <li> <a href="#"> Resources</a></li>
             <li> <a href="#"> Pricing</a></li>
         </ul>
         <div>
-        <button class="navbtn"> sign in</button>
+        <button class="navbtn"> Sign in</button>
         <button class="navgt"> GET STARTED</button>
         </div>
     </nav>
     <div class="mainbox">
         <div class="slackone">
-        <h1>slack is where work happens</h1>
-        <p>with channels in slack,you and your team know where to go to ask questions , share updates and stay in the loop.</p>
-        <br>
-        <button class="buttontff">TRY FOR FREE</button>
-        <button class="buttoncs">CONTACT SALES</button>
+            <h1>Slack is where work happens</h1>
+            <p>with channels in slack,you and your team know where to go to ask questions , share updates and stay in the loop.</p>
+            <button class="buttontff">TRY FOR FREE</button>
+            <button class="buttoncs">CONTACT SALES</button>
         </div>
-        <div class="slacktwo">
-      <img class="images" src="images/Slack_icon_2019.svg.png" alt="images">
-        </div>
+        <img class="images" src="images/Slack_icon_2019.svg.png" alt="images">
     </div>
+    <script>
+        document.querySelector(".ri-menu-line").addEventListener("click", function() {
+            document.querySelector("ul").style.right=0
+        })
+        document.querySelector(".ri-close-circle-line").addEventListener("click", function() {
+            document.querySelector("ul").style.right="-200px"
+        })
+    </script>
+
 </body>
 </html>

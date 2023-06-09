@@ -9,9 +9,8 @@ nav{
     justify-content: space-between;
     background-color: white;
     align-items: center;
-    padding: 10px 20px;
+    padding: 5px 15px;
 }
-
 ul{
     display: flex;
     gap: 2rem;
@@ -23,7 +22,7 @@ a{
 .logo{
     display: flex;
     align-items: center;
-    gap: 2rem;
+    gap: 1rem;
 }
 .navbtn{
     font-size: 1rem;
@@ -53,7 +52,7 @@ nav a{
     
 }
 .images{
-    width: 400px;
+    width: 40%;
 }
 h1{
     font-size: 4rem;
@@ -69,10 +68,83 @@ h1{
     font-size: 1rem;
     padding: 1.1em 1em;
 }
-
-p{
+.slackone p{
+    margin: 2rem 0;
     font-size: larger;
 }
 body{
     background-color: seashell;
 }
+.slackone{
+    width: 50%;
+}
+.ri-menu-line{
+    display: none;
+}
+@media screen and (max-width: 992px) {
+nav div{
+    display: none;
+}
+.mainbox p{
+    font-size: small;
+
+}
+.mainbox h1{
+    font-size: 2rem;
+}
+}
+@media screen and (max-width: 768px)  {
+.mainbox{
+    margin: 20px;
+    padding: 20px;
+}
+.buttontff{
+    color: white;
+    padding: 7px;
+}
+.buttoncs{
+    padding: 7px;
+}
+}
+@media screen and ( max-width: 576px){
+.mainbox{
+    flex-direction: column-reverse;
+}
+.images{
+    width: 60%;
+    margin-bottom: 20px;
+}
+.slackone{
+    width: 90%;
+    text-align: center;
+}
+.ri-menu-line{
+display: none;
+}
+.ri-close-circle-line{
+    display: none;
+}
+ul{
+    flex-direction: column;
+    position: fixed;
+    background-color: white;
+    top: 0;
+    right: -200px;
+    height: 100vh;
+    width: 40%;
+    text-align: center;
+    padding: 15px;
+    transition: .5s;
+}
+.ri-menu-line, .ri-close-circle-line{
+    display: block;
+    font-size: 20px;
+}
+nav{
+    padding: 10px 20px;
+}
+
+
+
+}    
+
