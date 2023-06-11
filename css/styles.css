@@ -81,8 +81,14 @@ body{
 .ri-menu-line{
     display: none;
 }
+.ri-close-circle-line{
+    display: none;
+}
 @media screen and (max-width: 992px) {
 nav div{
+    display: none;
+}
+.ri-close-circle-line{
     display: none;
 }
 .mainbox p{
